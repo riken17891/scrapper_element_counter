@@ -1,0 +1,33 @@
+Scrapper:
+    Pulls html for a given valid URL,
+    Counts each element,
+    Determines top 5 most frequently used tags/elements,
+    Outputs a result
+
+Prerequisites:
+    Python 2.7
+    Git
+
+Download:
+    git clone
+
+Usage:
+    run,
+        ./scrapper.py <url>
+
+    eg,
+        ./scrapper.py "http://ordergroove.com/company"
+
+Output:
+    eg,
+
+        {
+            "top_elements": {
+                "div": 89,
+                "a": 36,
+                "li": 35,
+                "span": 16,
+                "p": 16
+            },
+            "total_elements": 243
+        }
